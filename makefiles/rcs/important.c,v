@@ -1,0 +1,48 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2020.03.26.02.37.14;	author pi;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2020.03.26.02.34.23;	author pi;	state Exp;
+branches;
+next	;
+
+
+desc
+@This is an important demonstration file
+@
+
+
+1.2
+log
+@Added an extra line to be printed out.
+@
+text
+@/*
+ * This is an important file for managing this project.
+ * It implements the canonical "Hello world" program.
+ */
+
+int main()
+{
+	printf("Hello World\n");
+	printf("This is an extra line addded later \n");
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d6 5
+@
